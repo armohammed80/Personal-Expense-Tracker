@@ -4,15 +4,15 @@
 This Python script is designed to manage a personal expense tracker. It provides functionality to add expenses, view them, set and track a monthly budget, and write the data to a CSV file. The program makes use of multiple classes and libraries to handle data storage, validation, and presentation in a user-friendly manner.
 
 ## Key Libraries
-•	**csv**: The DictReader and DictWriter classes are used to read from and write to CSV files in a dictionary format.
-•	**prettytable**: This is used to neatly format and display the expenses in a table.
-•	**datetime**: Used for validating and filtering dates based on the current date.
-•	**math**: The fabs function is used to calculate the absolute difference between budget and expenses in case the limit is exceeded.
+-	**csv**: The DictReader and DictWriter classes are used to read from and write to CSV files in a dictionary format.
+-	**prettytable**: This is used to neatly format and display the expenses in a table.
+- **datetime**: Used for validating and filtering dates based on the current date.
+-	**math**: The fabs function is used to calculate the absolute difference between budget and expenses in case the limit is exceeded.
 
 ## Constants
-•	**DATA_FILE**: Defines the location of the CSV file where expenses are stored (data.csv).
-•	**DATE_FORMAT**: Specifies the date format (YYYY-MM-DD) for the input and validation of expense dates.
-•	**FIELDNAMES**: A list of the column headers for the CSV file: "Date", "Category", "Amount", and "Description".
+-	**DATA_FILE**: Defines the location of the CSV file where expenses are stored (data.csv).
+-	**DATE_FORMAT**: Specifies the date format (YYYY-MM-DD) for the input and validation of expense dates.
+-	**FIELDNAMES**: A list of the column headers for the CSV file: "Date", "Category", "Amount", and "Description".
 
 ## Classes
 ### Expense Class
