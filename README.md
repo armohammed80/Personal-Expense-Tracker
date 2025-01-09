@@ -49,9 +49,9 @@ The program starts by initializing an Expense object with the data file (data.cs
 ## User Interface
 The user interacts with the program through a terminal or command-line interface. It provides clear prompts for input and feedback, ensuring that the user is guided through the process. The use of a table to view expenses makes the information more readable and accessible.
 Error Handling
-•	Invalid Date Input: The program ensures that the date entered by the user matches the expected format (YYYY-MM-DD).
-•	Invalid Amount Input: The program prompts the user to re-enter the amount if it’s not a valid number.
-•	Empty Data: The program removes any expenses that have missing or invalid data.
+-	Invalid Date Input: The program ensures that the date entered by the user matches the expected format (YYYY-MM-DD).
+-	Invalid Amount Input: The program prompts the user to re-enter the amount if it’s not a valid number.
+-	Empty Data: The program removes any expenses that have missing or invalid data.
 
 ## Conclusion
 This Python program serves as a simple but effective expense tracking tool, allowing users to log, view, and manage their expenses while staying within a defined budget. The use of classes for modularization makes the code easy to maintain and extend, and the integration of CSV file handling ensures that data persists between sessions.
